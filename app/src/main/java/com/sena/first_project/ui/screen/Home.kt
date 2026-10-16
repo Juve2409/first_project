@@ -7,6 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.sena.first_project.ui.section.ContentSection
+import com.sena.first_project.ui.section.FooterSection
 import com.sena.first_project.ui.section.HeaderSection
 
 @Composable
@@ -16,5 +17,6 @@ fun Home(modifier: Modifier = Modifier) {
     ) {
         HeaderSection()
         ContentSection()
+        FooterSection()
     }
 }
